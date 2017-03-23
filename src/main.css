@@ -1,0 +1,21 @@
+.btn1,.btn2{
+  float: right;
+}
+.head{
+  z-index: 1;
+  position: absolute;
+  top: 10px;
+}
+.Li{
+  border: 2px solid deeppink;
+  margin-top: 20px;
+  padding: 5px;
+  width: 600px;
+  height: 150px;
+}
+.Li ul{
+  float: right;
+}
+.Li button{
+  margin-top: 10px;
+}

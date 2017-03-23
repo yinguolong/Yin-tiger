@@ -1,8 +1,9 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import App from "./App"
+import React from 'react';
+import {render} from 'react-dom';
+import Routers from "./routers.js"
+import injectTapEventPlugin from 'react-tap-event-plugin';
+import "./main.css"
 
+injectTapEventPlugin();
 
-ReactDOM.render(
-  <App />,document.getElementById("App")
-)
+render(<Routers />,document.getElementById('root'));
